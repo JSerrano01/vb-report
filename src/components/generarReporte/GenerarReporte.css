@@ -1,0 +1,39 @@
+.container-reporte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+}
+
+.container-reporte__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.container-reporte__img {
+    min-width: 300px;
+    min-height: 300px;
+    background-color: rgb(221, 221, 221);
+    border: solid 1px rgb(230, 227, 227);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #92A575;
+    margin-bottom: 10px;
+}
+
+.spacer {
+    width: 2rem;
+}
+
+.MuiOutlinedInput-root {
+    margin: 10px 0;
+    
+}
